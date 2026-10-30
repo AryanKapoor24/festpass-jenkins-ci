@@ -1,5 +1,20 @@
 # FestPass: campus event registration + Jenkins
 
+> ## 📋 Submission: ARYAN KAPOOR
+> **Class code:** 001 · **Challenge code:** 00138 · **Git author alias:** ARYAN KAPOOR
+>
+> | Required item | Link |
+> |---|---|
+> | Evidence page (builds, commits, causes, failing assertion, fix, JAR output) | [evidence/EVIDENCE.md](evidence/EVIDENCE.md) |
+> | 🔴 Red evidence CSV: build #2, automatic, 3/28 failed | [evidence/red-build-2/submission-evidence.csv](evidence/red-build-2/submission-evidence.csv) |
+> | 🟢 Green evidence CSV: build #3, automatic, 28/28 passed | [evidence/green-build-3/submission-evidence.csv](evidence/green-build-3/submission-evidence.csv) |
+> | Final JAR (from build #3) | [evidence/green-build-3/festpass.jar](evidence/green-build-3/festpass.jar) |
+> | Polling trigger | [Jenkinsfile](Jenkinsfile) (`triggers { pollSCM('* * * * *') }`) |
+> | The fix (one line in `cancel()`) | [src/main/java/BookingService.java](src/main/java/BookingService.java), commit `a0ba479` |
+>
+> Commits: `438f394` trigger + codes → `46f32d6` help text (auto red #2) → `a0ba479` fix (auto green #3).
+> The rest of this README is the original starter documentation.
+
 This is a deliberately failing **diagnostic starter**, not a finished submission. It manages
 multiple events, seat limits, student registrations, cancellations, and local
 file persistence. For the **one-hour Jenkins assessment**, create the SCM job,

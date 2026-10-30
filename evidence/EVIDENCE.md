@@ -100,8 +100,8 @@ Usage: java -jar build/festpass.jar [--data FILE] COMMAND
 
 ## 7. Submitted files
 
-- `festpass-java/`: source and Git history
-- `build-2/submission-evidence.csv`: red evidence (the automatic failed build)
-- `build-3/submission-evidence.csv`: green evidence (the automatic successful build)
-- `build-3/festpass.jar`: the final JAR
-- `build-1/submission-evidence.csv`: the bootstrap run (extra)
+- Repository root: source and Git history
+- [`red-build-2/submission-evidence.csv`](red-build-2/submission-evidence.csv): red evidence (the automatic failed build)
+- [`green-build-3/submission-evidence.csv`](green-build-3/submission-evidence.csv): green evidence (the automatic successful build)
+- [`green-build-3/festpass.jar`](green-build-3/festpass.jar): the final JAR
+- [`red-build-1-bootstrap/submission-evidence.csv`](red-build-1-bootstrap/submission-evidence.csv): the bootstrap run (extra)
